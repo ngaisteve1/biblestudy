@@ -1,0 +1,29 @@
+site_name: Bible Study
+site_url: https://ngaisteve1.github.io/biblestudy/
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.emoji
+  - pymdownx.tasklist
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.betterem
+  - pymdownx.tilde
+plugins:
+  - search
+nav:
+  - Home: index.md
